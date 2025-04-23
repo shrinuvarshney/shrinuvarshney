@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Shrinu Varshney</h1>
-<h3 align="center">Passionate AI and Data Science enthusiast from India</h3>
+<h3 align="center">Passionate Data Analyst enthusiast from India</h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">

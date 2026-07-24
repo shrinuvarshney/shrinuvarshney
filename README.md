@@ -1,67 +1,166 @@
-<h1 align="center">Hi 👋, I'm Shrinu Varshney</h1>
+<h1 align="center">
+Hey 👋 I'm Shrinu Varshney
+</h1>
+
+<h3 align="center">
+Building AI Products • Solving Problems • Learning Every Day
+</h3>
 
 <p align="center">
-  <a href="https://github.com/shrinuvarshney">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=📊+Data+Analyst+%7C+Python+%7C+SQL+%7C+Power+BI;💡+Lifelong+Learner+%7C+AI+Enthusiast+%7C+Curious+Mind;🚀+Open+to+Work+%26+Collaboration&center=true&width=800&height=45&font=Fira+Code&size=22&color=3FF787&vCenter=true&pause=1000" alt="Typing SVG" />
-  </a>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&pause=1200&color=00F7FF&center=true&vCenter=true&width=850&lines=AI+Engineer+in+Progress;Building+Generative+AI+Applications;Python+%7C+FastAPI+%7C+LangChain+%7C+RAG;Backend+Developer+%7C+Open+Source+Learner;Turning+Ideas+Into+Products" />
 </p>
 
 ---
 
-## 🙋‍♂️ About Me
+# 🚀 About Me
 
-- 🔍 I turn raw data into actionable insights  
-- 📊 Passionate about **Data Analysis, Visualization, and Storytelling**
-- 🧠 Constantly exploring tools like **Power BI**, **Looker**, **Streamlit**, **SQL**
-- 🛠️ Always building, learning, and sharing
-- 📬 Reach me at: **shrinuvarshney30@gmail.com**
+```python
+class Shrinu:
+
+    def __init__(self):
+        self.role = "AI Developer"
+        self.location = "India 🇮🇳"
+
+        self.languages = [
+            "Python",
+            "SQL",
+            "JavaScript",
+            "C++"
+        ]
+
+        self.interests = [
+            "Generative AI",
+            "Backend Development",
+            "LLMs",
+            "RAG",
+            "Automation",
+            "Open Source"
+        ]
+
+        self.currently_building = [
+            "AI Applications",
+            "RAG Systems",
+            "FastAPI Projects",
+            "Smart PDF Chatbots"
+        ]
+
+    def motto(self):
+        return "Learn • Build • Improve • Repeat"
+
+me = Shrinu()
+```
 
 ---
 
-## 🧰 Tech Stack
+# 💻 Tech Stack
 
-- **Languages**: Python, SQL, HTML, CSS  
-- **Libraries**: Pandas, NumPy, Matplotlib, Seaborn  
-- **BI Tools**: Power BI, Excel, Google Looker Studio  
-- **Cloud**: AWS (Basics), Streamlit  
-- **Other**: Git, GitHub, VS Code
+### Languages
 
----
+<p>
+<img src="https://skillicons.dev/icons?i=python,cpp,js,html,css,sql"/>
+</p>
 
-## 📊 GitHub Stats
+### AI & Machine Learning
 
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=shrinuvarshney&show_icons=true&theme=radical" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shrinuvarshney&layout=compact&theme=radical" />
+<p>
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch"/>
+<img src="https://img.shields.io/badge/LangChain-black?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LangGraph-blue?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/HuggingFace-yellow?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/ChromaDB-purple?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Pinecone-black?style=for-the-badge"/>
+</p>
+
+### Backend
+
+<p>
+<img src="https://skillicons.dev/icons?i=fastapi,nodejs"/>
+</p>
+
+### Database
+
+<p>
+<img src="https://skillicons.dev/icons?i=mysql,mongodb"/>
+</p>
+
+### Cloud & Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=aws,git,github,vscode,firebase"/>
 </p>
 
 ---
 
-## 🟩 GitHub Contribution Graph
+<p align="center">
+
+> *"Code. Learn. Build. Repeat."*
+
+</p>
+
+# 📊 Contribution Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shrinuvarshney&theme=react-dark&area=true&hide_border=true" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=shrinuvarshney&theme=tokyo-night&hide_border=true&area=true"/>
+
 </p>
 
 ---
 
-## 🧠 Fun Animation
+# 🚀 Featured Projects
+
+🌟 Smart PDF Chatbot
+
+🌟 AI Portfolio
+
+🌟 RAG Applications
+
+🌟 FastAPI Projects
+
+🌟 Data Analytics Dashboards
+
+🌟 Automation Tools
+
+---
+
+# 🌱 Currently Learning
+
+- Advanced RAG
+- AI Agents
+- MCP
+- LangGraph
+- FastAPI
+- Docker
+- AWS
+- System Design
+
+---
+
+# 📫 Let's Connect
 
 <p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="480" height="270" />
+
+<a href="https://www.linkedin.com/in/shrinuvarshney">
+<img src="https://skillicons.dev/icons?i=linkedin"/>
+</a>
+
+<a href="mailto:shrinuvarshney30@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
 </p>
 
 ---
 
-## 🤝 Connect With Me
-
 <p align="center">
-  <a href="https://www.linkedin.com/in/shrinuvarshney/">
-    <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:shrinuvarshney30@gmail.com">
-    <img src="https://img.shields.io/badge/-Gmail-D14836?style=flat-square&logo=Gmail&logoColor=white" />
-  </a>
+
+> "Great software isn't written overnight.
+> It's built one commit at a time."
+
 </p>
 
----
+<p align="center">
+
+<img src="https://komarev.com/ghpvc/?username=shrinuvarshney&label=Profile+Views&color=0e75b6&style=flat"/>
+
+</p>

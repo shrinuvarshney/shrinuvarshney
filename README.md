@@ -1,166 +1,129 @@
-<h1 align="center">
-Hey 👋 I'm Shrinu Varshney
-</h1>
+<!-- ========================================================= -->
+<!--                 GitHub Profile README                     -->
+<!-- ========================================================= -->
 
-<h3 align="center">
-Building AI Products • Solving Problems • Learning Every Day
-</h3>
+<h1 align="center">Hi, I'm Shrinu Varshney 👋</h1>
+
+<h3 align="center">Generative AI Developer (Fresher) &nbsp;|&nbsp; Building RAG systems & AI-powered apps</h3>
 
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&pause=1200&color=00F7FF&center=true&vCenter=true&width=850&lines=AI+Engineer+in+Progress;Building+Generative+AI+Applications;Python+%7C+FastAPI+%7C+LangChain+%7C+RAG;Backend+Developer+%7C+Open+Source+Learner;Turning+Ideas+Into+Products" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=2F81F7&center=true&vCenter=true&width=750&lines=Generative+AI+Developer;RAG+%7C+LLMs+%7C+LangChain;Python+%2B+FastAPI+Backend;Open+to+Remote+Roles"/>
+</p>
+
+<p align="center">
+<a href="https://www.linkedin.com/in/shrinuvarshney"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:shrinuvarshney30@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white"/></a>
+<img src="https://komarev.com/ghpvc/?username=shrinuvarshney&label=Profile%20Views&color=2F81F7&style=flat-square"/>
 </p>
 
 ---
 
-# 🚀 About Me
+### 👋 About Me
 
-```python
-class Shrinu:
+I like building things with LLMs and figuring out how they actually work under the hood.
 
-    def __init__(self):
-        self.role = "AI Developer"
-        self.location = "India 🇮🇳"
+- 🔭 Into **RAG systems** and AI-powered apps
+- 🌱 Always learning something new — right now it's agents & system design
+- ⚡ Fun fact: I'd rather debug a retrieval pipeline than watch Netflix
 
-        self.languages = [
-            "Python",
-            "SQL",
-            "JavaScript",
-            "C++"
-        ]
+---
 
-        self.interests = [
-            "Generative AI",
-            "Backend Development",
-            "LLMs",
-            "RAG",
-            "Automation",
-            "Open Source"
-        ]
+### 🛠 Featured Projects
 
-        self.currently_building = [
-            "AI Applications",
-            "RAG Systems",
-            "FastAPI Projects",
-            "Smart PDF Chatbots"
-        ]
+**🔍 RAG-Based Chatbot**
+My primary interview project — a retrieval-augmented generation chatbot built to demonstrate real systems-design judgment: chunking strategy, retrieval quality, and grounding LLM responses in source documents rather than hallucinating.
 
-    def motto(self):
-        return "Learn • Build • Improve • Repeat"
+**🗃️ Text-to-SQL Query Generator**
+Converts natural language questions into SQL queries against an e-commerce database. Built with the **Claude API** for generation, a **FastAPI** backend, a **Streamlit** UI, **SQLite** for storage, and `sqlparse` for query validation.
 
-me = Shrinu()
+**📋 AI Job Application Assistant**
+A semi-automated job-search tool that parses a resume, pulls listings from the **Adzuna** and **RemoteOK** APIs, and ranks them with a two-stage pipeline (local embeddings shortlist → LLM fit scoring). Automates form-filling on Greenhouse/Lever with **Playwright** — but every submission passes through a hard-coded human-confirmation gate; nothing goes out unreviewed.
+
+---
+
+### 💻 Tech Stack
+
+**Languages**
+<p>
+<img src="https://skillicons.dev/icons?i=python,cpp,js,html,css,mysql"/>
+</p>
+
+**Generative AI / ML**
+<p>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square"/>
+<img src="https://img.shields.io/badge/RAG-333333?style=flat-square"/>
+<img src="https://img.shields.io/badge/Claude_API-D97757?style=flat-square"/>
+<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/Sentence_Transformers-444444?style=flat-square"/>
+</p>
+
+**Backend & Data**
+<p>
+<img src="https://skillicons.dev/icons?i=fastapi,nodejs,mysql,sqlite"/>
+</p>
+
+**Tools & Cloud**
+<p>
+<img src="https://skillicons.dev/icons?i=docker,aws,git,github,vscode"/>
+</p>
+
+---
+
+### 🚀 My Contribution Graph, Gamified
+
+<p align="center">
+<img src="./game.gif" alt="Space Shooter game generated from contribution graph" width="600"/>
+</p>
+
+> Turns my contribution graph into a Galaga-style space shooter — each commit becomes an enemy ship. Powered by [gh-space-shooter](https://github.com/czl9707/gh-space-shooter), auto-updated daily via GitHub Actions.
+
+<details>
+<summary>⚙️ How it's set up</summary>
+
+Add this workflow to your profile repo at <code>.github/workflows/update-game.yml</code>:
+
+```yaml
+name: Update Space Shooter Game
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # daily at midnight UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-game:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 2  # required
+
+      - uses: czl9707/gh-space-shooter@v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          output-path: 'game.gif'
+          strategy: 'random'
 ```
 
----
-
-# 💻 Tech Stack
-
-### Languages
-
-<p>
-<img src="https://skillicons.dev/icons?i=python,cpp,js,html,css,sql"/>
-</p>
-
-### AI & Machine Learning
-
-<p>
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch"/>
-<img src="https://img.shields.io/badge/LangChain-black?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/LangGraph-blue?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/HuggingFace-yellow?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/ChromaDB-purple?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Pinecone-black?style=for-the-badge"/>
-</p>
-
-### Backend
-
-<p>
-<img src="https://skillicons.dev/icons?i=fastapi,nodejs"/>
-</p>
-
-### Database
-
-<p>
-<img src="https://skillicons.dev/icons?i=mysql,mongodb"/>
-</p>
-
-### Cloud & Tools
-
-<p>
-<img src="https://skillicons.dev/icons?i=aws,git,github,vscode,firebase"/>
-</p>
+The action commits `game.gif` back to the repo, which is what `./game.gif` above points to — no manual regeneration needed.
+</details>
 
 ---
+
+### 📈 GitHub Activity
 
 <p align="center">
-
-> *"Code. Learn. Build. Repeat."*
-
-</p>
-
-# 📊 Contribution Graph
-
-<p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=shrinuvarshney&theme=tokyo-night&hide_border=true&area=true"/>
-
-</p>
-
----
-
-# 🚀 Featured Projects
-
-🌟 Smart PDF Chatbot
-
-🌟 AI Portfolio
-
-🌟 RAG Applications
-
-🌟 FastAPI Projects
-
-🌟 Data Analytics Dashboards
-
-🌟 Automation Tools
-
----
-
-# 🌱 Currently Learning
-
-- Advanced RAG
-- AI Agents
-- MCP
-- LangGraph
-- FastAPI
-- Docker
-- AWS
-- System Design
-
----
-
-# 📫 Let's Connect
-
-<p align="center">
-
-<a href="https://www.linkedin.com/in/shrinuvarshney">
-<img src="https://skillicons.dev/icons?i=linkedin"/>
-</a>
-
-<a href="mailto:shrinuvarshney30@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-</p>
-
----
-
-<p align="center">
-
-> "Great software isn't written overnight.
-> It's built one commit at a time."
-
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=shrinuvarshney&theme=react-dark&hide_border=true&area=true"/>
 </p>
 
 <p align="center">
-
-<img src="https://komarev.com/ghpvc/?username=shrinuvarshney&label=Profile+Views&color=0e75b6&style=flat"/>
-
+<img src="https://github-readme-stats.vercel.app/api?username=shrinuvarshney&show_icons=true&theme=react&hide_border=true&count_private=true" height="165"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=shrinuvarshney&theme=react&hide_border=true" height="165"/>
 </p>
+
+---
+
+<p align="center"><i>Learn → Build → Ship → Repeat</i></p>

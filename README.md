@@ -71,45 +71,7 @@ A semi-automated job-search tool that parses a resume, pulls listings from the *
 
 ### 🚀 My Contribution Graph, Gamified
 
-<p align="center">
-<img src="./game.gif" alt="Space Shooter game generated from contribution graph" width="600"/>
-</p>
-
-> Turns my contribution graph into a Galaga-style space shooter — each commit becomes an enemy ship. Powered by [gh-space-shooter](https://github.com/czl9707/gh-space-shooter), auto-updated daily via GitHub Actions.
-
-<details>
-<summary>⚙️ How it's set up</summary>
-
-Add this workflow to your profile repo at <code>.github/workflows/update-game.yml</code>:
-
-```yaml
-name: Update Space Shooter Game
-
-on:
-  schedule:
-    - cron: '0 0 * * *'  # daily at midnight UTC
-  workflow_dispatch:
-
-permissions:
-  contents: write
-
-jobs:
-  update-game:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v6
-        with:
-          fetch-depth: 2  # required
-
-      - uses: czl9707/gh-space-shooter@v2
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          output-path: 'game.gif'
-          strategy: 'random'
-```
-
-The action commits `game.gif` back to the repo, which is what `./game.gif` above points to — no manual regeneration needed.
-</details>
+![My GitHub Game](game.gif)
 
 ---
 
